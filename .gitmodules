@@ -1,0 +1,4 @@
+[submodule "vendor/discpp"]
+	path = vendor/discpp
+	url = https://github.com/DisCPP/DisCPP.git
+	branch = development

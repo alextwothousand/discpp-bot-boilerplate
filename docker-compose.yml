@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_TYPE: Release
+    container_name: discpp-bot
+    volumes:
+      .:/app
