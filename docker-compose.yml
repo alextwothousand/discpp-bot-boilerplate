@@ -6,6 +6,8 @@ services:
       dockerfile: Dockerfile
       args:
         BUILD_TYPE: Release
+    environment:
+      DISCORD_TOKEN: NO_BOT_TOKEN
     container_name: discpp-bot
     volumes:
       .:/app
