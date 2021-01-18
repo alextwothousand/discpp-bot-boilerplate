@@ -33,6 +33,12 @@ WORKDIR /app
 COPY . /app
 
 ##
+# Pull all git submodules
+##
+RUN \
+    git submodule update --init --recursive
+
+##
 # Build target
 ##
 RUN \
