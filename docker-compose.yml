@@ -10,4 +10,4 @@ services:
       DISCORD_TOKEN: NO_BOT_TOKEN
     container_name: discpp-bot
     volumes:
-      .:/app
+      - .:/app
